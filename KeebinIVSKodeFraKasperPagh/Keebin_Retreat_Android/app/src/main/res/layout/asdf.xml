@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="25dp"
+        android:text="På denne side kan du rette i din profil! \n (felter markeret med * skal udfyldes)"
+        android:textColor="#000000"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:text="Ny email"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:id="@+id/emailEditField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:hint="eksempel@email.dk"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:text="Nyt Kodeord"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:id="@+id/editKodeord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint=" kodeord "
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:textStyle="italic"/>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:text="Gentag nyt Kodeord"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:id="@+id/editKodeordGentagelse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint=" kodeord "
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:text="Fornavn"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/editFirstName"
+        android:hint="Fornavn"
+        android:textStyle="italic"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Efternavn"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        />
+
+
+
+    <EditText
+        android:id="@+id/editLastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Efternavn"
+        android:textStyle="italic"/>
+
+</LinearLayout>

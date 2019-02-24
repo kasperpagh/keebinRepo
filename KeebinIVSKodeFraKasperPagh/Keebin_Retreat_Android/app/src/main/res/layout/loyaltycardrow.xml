@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loyaltycard_border_layout"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+         />
+
+
+    <ImageView
+        android:id="@+id/bean1"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:paddingBottom="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@+id/logo" />
+    <ImageView
+        android:id="@+id/bean2"
+        android:layout_toEndOf="@+id/bean1"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="30dp"
+        android:paddingBottom="10dp"/>
+    <ImageView
+        android:id="@+id/bean3"
+        android:layout_toEndOf="@+id/bean2"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="30dp"
+        android:paddingBottom="10dp"/>
+    <ImageView
+        android:id="@+id/bean4"
+        android:layout_toEndOf="@+id/bean3"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="30dp"
+        android:paddingBottom="10dp"/>
+    <ImageView
+        android:id="@+id/bean5"
+        android:layout_toEndOf="@+id/bean4"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="30dp"
+        android:paddingBottom="10dp"/>
+
+    <ImageView
+        android:id="@+id/bean6"
+        android:layout_toEndOf="@+id/logo"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:layout_below="@id/bean1"
+        android:paddingBottom="10dp" />
+
+    <ImageView
+        android:id="@+id/bean7"
+        android:layout_toEndOf="@+id/bean6"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:layout_below="@id/bean2"
+        android:paddingBottom="10dp"/>
+    <ImageView
+        android:id="@+id/bean8"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:layout_toEndOf="@+id/bean7"
+        android:layout_below="@id/bean3"
+        android:paddingBottom="10dp"/>
+    <ImageView
+        android:id="@+id/bean9"
+        android:layout_toEndOf="@+id/bean8"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:layout_below="@id/bean4"
+        android:paddingBottom="10dp"/>
+    <ImageView
+        android:id="@+id/bean10"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:layout_toEndOf="@+id/bean9"
+        android:layout_below="@id/bean5"
+        android:paddingBottom="10dp"/>
+    <TextView
+        android:id="@+id/gratisKopper"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:layout_alignBottom="@+id/bean10"
+        android:layout_toEndOf="@+id/bean10" />
+
+
+
+</RelativeLayout>

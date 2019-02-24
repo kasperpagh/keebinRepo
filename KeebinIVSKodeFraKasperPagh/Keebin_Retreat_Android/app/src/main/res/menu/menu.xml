@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+        <item android:title="Search"
+            android:id="@+id/Menu1"
+            app:showAsAction="always" />
+
+        <item android:title="Menu2"
+            android:id="@+id/Menu2" />
+
+        <item android:title="Menu3"
+            android:id="@+id/Menu3" />
+</menu>

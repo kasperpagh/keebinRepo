@@ -1,0 +1,275 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            tools:context="kasper.pagh.keebin.NewUserActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorToolbar"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="kasper.pagh.keebin.LoginActivity">
+
+        <TextView
+            android:id="@+id/newUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Opret bruger"
+            android:textColor="#ffffff"
+
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/newUser"
+            android:layout_centerHorizontal="true"
+            android:text="(felter markeret med * skal udfyldes)"
+            android:textColor="#ffffff"
+            android:textSize="10dp"/>
+
+        <TextView
+            android:id="@+id/newEText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="50dp"
+            android:text="Email *"
+            android:textColor="#ffffff"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/newEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/newEText"
+            android:layout_centerInParent="true"
+            android:ellipsize="start"
+            android:gravity="center"
+            android:layout_marginBottom="5dp"
+            android:background="#ffffff"
+            android:ems="10"
+            android:hint="Indsæt email"
+            android:inputType="textEmailAddress"/>
+
+        <TextView
+            android:id="@+id/newPtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/newEmail"
+            android:layout_centerInParent="true"
+            android:ellipsize="start"
+            android:gravity="center"
+            android:layout_marginBottom="5dp"
+            android:text="Kodeord *"
+            android:textColor="#ffffff"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/newPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/newPtext"
+            android:layout_centerInParent="true"
+            android:ellipsize="start"
+            android:gravity="center"
+            android:layout_marginBottom="5dp"
+            android:background="#ffffff"
+            android:ems="10"
+            android:hint="Indsæt kodeord"
+            android:text=""/>
+
+        <TextView
+            android:id="@+id/repeatPwText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/newPassword"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:text="Gentag kodeord *"
+            android:textColor="#ffffff"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/repeatNewPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/repeatPwText"
+            android:layout_centerInParent="true"
+            android:ellipsize="start"
+            android:gravity="center"
+            android:layout_marginBottom="5dp"
+            android:background="#ffffff"
+            android:ems="10"
+            android:hint="Gentag kodeord"
+            android:text=""/>
+
+        <TextView
+            android:id="@+id/newFNText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/repeatNewPassword"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:text="Fornavn"
+            android:textColor="#ffffff"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/newFirstName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/newFNText"
+            android:layout_centerInParent="true"
+            android:ellipsize="start"
+            android:gravity="center"
+            android:layout_marginBottom="5dp"
+            android:background="#ffffff"
+            android:ems="10"
+            android:hint="Indsæt fornavn"
+            android:text=""/>
+
+        <TextView
+            android:id="@+id/newLNText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/newFirstName"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:text="Efternavn"
+            android:textColor="#ffffff"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/newLastname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/newLNText"
+            android:layout_centerInParent="true"
+            android:ellipsize="start"
+            android:gravity="center"
+            android:layout_marginBottom="5dp"
+            android:background="#ffffff"
+            android:ems="10"
+            android:hint="Indsæt efternavn"/>
+
+        <TextView
+            android:id="@+id/newBirthdayText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/newLastname"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:text="fødselsdag"
+            android:textColor="#ffffff"
+            android:textSize="20dp"/>
+
+        <Button
+            android:id="@+id/myDatePickerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/newBirthdayText"
+            android:layout_centerHorizontal="true"
+            android:text="Vælg dato"/>
+
+
+        <TextView
+            android:id="@+id/newSexText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/myDatePickerButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:text="Køn"
+            android:textColor="#ffffff"
+            android:textSize="20dp"/>
+
+        <RelativeLayout
+            android:id="@+id/newSex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/newSexText"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:id="@+id/radioGrp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                >
+
+                <RadioButton
+                    android:id="@+id/manRadio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:text="Mand"
+                    android:layout_marginRight="15dp"
+                    android:buttonTint="#ffffff"
+                    />
+
+                <RadioButton
+                    android:id="@+id/womanRadio"
+                    android:layout_width="wrap_content"
+                    android:textColor="#ffffff"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="#ffffff"
+                    android:text="Kvinde"/>
+
+
+            </RadioGroup>
+
+            <!--<TextView-->
+                <!--android:id="@+id/manText"-->
+                <!--android:layout_width="140dp"-->
+                <!--android:layout_below="@id/manRadio"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Mand"/>-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/womanText"-->
+                <!--android:layout_width="140dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Kvinde"/>-->
+        </RelativeLayout>
+
+        <!--<Spinner-->
+        <!--android:id="@+id/newSex"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/newSexText"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:background="@android:drawable/btn_dropdown"-->
+        <!--android:spinnerMode="dropdown"/>-->
+
+        <Button
+            android:id="@+id/submit_newUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/newSex"
+            android:layout_centerHorizontal="true"
+            android:onClick="submitUser"
+            android:text="Opret ny bruger"/>
+
+        <TextView
+            android:id="@+id/newUserError"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/submit_newUser"
+            android:layout_centerHorizontal="true"
+            android:text=""
+            android:textColor="#ffffff"
+            android:textSize="20dp"/>
+
+    </RelativeLayout>
+</ScrollView>

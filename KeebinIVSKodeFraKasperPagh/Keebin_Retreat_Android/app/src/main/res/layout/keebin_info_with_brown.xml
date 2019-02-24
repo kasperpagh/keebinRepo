@@ -1,0 +1,149 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kasper.pagh.keebin.LoginActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/logo"
+        android:id="@+id/keebinImage"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"></ImageView>
+    <TextView
+        android:text="Keebin"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#4FD5D6"
+        android:id="@+id/Keebin"
+        android:layout_below="@+id/keebinImage"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:text="Vi gør livet nemmere"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#4FD5D6"
+        android:id="@+id/slogan"
+        android:layout_below="@+id/Keebin"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="1"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/Keebin"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <TextView
+                android:text="Adresse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#4FD5D6"
+                android:textSize="20dp"
+                android:layout_marginTop="28dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:text="Keebins adress er hej hej"
+                android:textSize="18dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1" />
+            <TextView
+                android:text="kontakt os"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#4FD5D6"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:text="Email: Keebinapp@something.something"
+                android:textSize="18dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1" />
+            <TextView
+                android:text="Telf: 8888888888"
+                android:textSize="18dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1" />
+
+
+            <TextView
+                android:text="Lidt info omkring hvordan vi reder søhønen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#4FD5D6"
+                android:layout_centerHorizontal="true"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1" />
+            <TextView
+                android:text="Det vi har tænkt os at gøre, det er at kæle med den. Sådan lige under bugen, det kan de så godt lide."
+                android:textSize="18dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1" />
+
+
+
+            <TextView
+                android:text="Men søhønen er jo en truet dyreart hvordan vil det hjælpe?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#4FD5D6"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1" />
+            <TextView
+                android:text="Når vi kæler med dem så bliver de simpelthen så glade, jeg havde engang en hund, den kælede jeg så meget så den eksploderede..... lige op i hovedet på mig..... med sin lille diiller."
+                android:textSize="18dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1" />
+            <TextView
+                android:text="Men hvordan vil det hjælpe at kæle med dem?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#4FD5D6"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1" />
+            <TextView
+                android:text="De bliver så glade når man kæææææler med dem. jeg havde engang en kat, den kælede jeg så meget så den eksploderede..... lige op i hovedet på mig..... med sin lille diiller."
+                android:textSize="18dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

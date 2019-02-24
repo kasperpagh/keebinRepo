@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/editIntro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:text="Her kan du rette din profil"
+            android:textColor="#000000"
+            android:textStyle="italic"/>
+
+
+        <TextView
+            android:id="@+id/newEText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="50dp"
+            android:text="Email"
+            android:textColor="#000000"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/newEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_below="@id/newEText"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="5dp"
+            android:background="#ffffff"
+            android:ellipsize="start"
+            android:ems="10"
+            android:gravity="center"
+
+            android:inputType="textEmailAddress"/>
+
+        <TextView
+            android:id="@+id/newFNText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/newEmail"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:text="Fornavn"
+            android:textColor="#000000"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/newFirstName"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_below="@id/newFNText"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="5dp"
+            android:background="#ffffff"
+            android:ellipsize="start"
+            android:ems="10"
+            android:gravity="center"
+
+            android:text=""/>
+
+        <TextView
+            android:id="@+id/newLNText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/newFirstName"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:text="Efternavn"
+            android:textColor="#000000"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/newLastname"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_below="@id/newLNText"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="5dp"
+            android:background="#ffffff"
+            android:ellipsize="start"
+            android:ems="10"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/newPtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/newLastname"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:text="Nyt kodeord"
+            android:textColor="#000000"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/newPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_below="@id/newPtext"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="5dp"
+            android:background="#ffffff"
+            android:ellipsize="start"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPassword"
+            android:text="123"/>
+
+        <TextView
+            android:id="@+id/repeatPwText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/newPassword"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:text="Gentag nyt kodeord"
+            android:textColor="#000000"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/repeatNewPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_below="@id/repeatPwText"
+            android:layout_centerInParent="true"
+            android:background="#ffffff"
+            android:ellipsize="start"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPassword"
+            android:text="123"/>
+
+        <TextView
+            android:layout_marginTop="45dp"
+            android:id="@+id/oldPwInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/repeatNewPassword"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:text="Nuværende kodeord"
+            android:textColor="#000000"
+            android:textSize="20dp"/>
+
+        <EditText
+
+            android:id="@+id/oldPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_below="@id/oldPwInfo"
+            android:layout_centerInParent="true"
+            android:background="#ffffff"
+            android:ellipsize="start"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPassword"
+            android:text="123"/>
+
+
+        <Button
+            android:id="@+id/saveEditButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/oldPassword"
+            android:layout_centerInParent="true"
+            android:ellipsize="start"
+            android:gravity="center"
+            android:text="Gem ændringer"
+            android:layout_marginBottom="15dp"
+
+            android:textColor="#000000"/>
+
+
+    </RelativeLayout>
+</ScrollView>

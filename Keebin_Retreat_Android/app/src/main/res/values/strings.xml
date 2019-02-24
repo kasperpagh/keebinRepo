@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Keebin_dev_v0.11</string>
+    <string name="baseUrl">https://keebin-keebin.rhcloud.com/api/</string>
+    <string name="loginString">https://keebin-keebin.rhcloud.com/</string>
+    <string name="putUserUrl">users/userId/</string>
+    <string name="hjemmeside">http://keebin.wixsite.com/keebin</string>
+    <string name="mobilepayGoogle">"market://details?id=dk.danskebank.mobilepay</string>
+    <string name="keebinGooglePlay">"market://details?id=kasper.pagh.keebin</string>
+    <string name="deleteUserUrl">users/userId/</string>
+    <string name="menuheight">55dp</string>
+    <string name="mapsApiKey">AIzaSyCjmYykwdu5BrHuBJF8zh6lkwoOFTxlLVw</string>
+    <string name="certificateBaseURL">http://10.0.2.2:8080/cert/certificate/load</string>
+    <string name="brandName">ReTreat</string>
+</resources>

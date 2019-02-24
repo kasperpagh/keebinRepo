@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loyaltycard_border_layout"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:id="@+id/logo2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"/>
+
+
+    <ImageView
+        android:id="@+id/kaffe1"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="30dp"
+        android:paddingBottom="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/logo2" />
+    <ImageView
+        android:id="@+id/kaffe2"
+        android:layout_toEndOf="@+id/kaffe1"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="30dp"
+        android:paddingBottom="10dp"/>
+    <ImageView
+        android:id="@+id/kaffe3"
+        android:layout_toEndOf="@+id/kaffe2"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="30dp"
+        android:paddingBottom="10dp"/>
+    <ImageView
+        android:id="@+id/kaffe4"
+        android:layout_toEndOf="@+id/kaffe3"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="30dp"
+        android:paddingBottom="10dp"/>
+    <ImageView
+        android:id="@+id/kaffe5"
+        android:layout_toEndOf="@+id/kaffe4"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="30dp"
+        android:paddingBottom="10dp"/>
+
+    <ImageView
+        android:id="@+id/kaffe6"
+        android:layout_toEndOf="@+id/logo2"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:layout_below="@id/kaffe1"
+        android:paddingBottom="10dp" />
+
+    <ImageView
+        android:id="@+id/kaffe7"
+        android:layout_toEndOf="@+id/kaffe6"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:layout_below="@id/kaffe2"
+        android:paddingBottom="10dp"/>
+    <ImageView
+        android:id="@+id/kaffe8"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:layout_toEndOf="@+id/kaffe7"
+        android:layout_below="@id/kaffe3"
+        android:paddingBottom="10dp"/>
+    <ImageView
+        android:id="@+id/kaffe9"
+        android:layout_toEndOf="@+id/kaffe8"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:layout_below="@id/kaffe4"
+        android:paddingBottom="10dp"/>
+    <ImageView
+        android:id="@+id/kaffe10"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:layout_toEndOf="@+id/kaffe9"
+        android:layout_below="@id/kaffe5"
+        android:paddingBottom="10dp"/>
+    <TextView
+        android:id="@+id/klippekortName"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:layout_alignBottom="@+id/kaffe5"
+        android:layout_toEndOf="@+id/kaffe5" />
+    <TextView
+        android:id="@+id/gratisKopper2"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:layout_alignBottom="@+id/kaffe10"
+        android:layout_toEndOf="@+id/kaffe10" />
+
+
+
+</RelativeLayout>

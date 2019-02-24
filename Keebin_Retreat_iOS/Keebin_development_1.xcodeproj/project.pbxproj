@@ -1,0 +1,890 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30069B871E4952130048DD15 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30069B861E4952130048DD15 /* LoginViewController.swift */; };
+		304D8C3E1E72B6D600B95B58 /* KlippekortSelectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304D8C3D1E72B6D600B95B58 /* KlippekortSelectedViewController.swift */; };
+		3059FF041E65A9ED0059DA1A /* SettingsDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3059FF031E65A9ED0059DA1A /* SettingsDateViewController.swift */; };
+		305A62AF1E642FB800A35A02 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305A62AE1E642FB800A35A02 /* SettingsViewController.swift */; };
+		305A62B11E6451B000A35A02 /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305A62B01E6451B000A35A02 /* GlobalVariables.swift */; };
+		307D6F4D1E4DC769007DA665 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307D6F4C1E4DC769007DA665 /* RegisterViewController.swift */; };
+		30890CD31E78141C0075746D /* buyCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30890CD11E78141C0075746D /* buyCardTableViewCell.swift */; };
+		30890CD41E78141C0075746D /* buyCardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30890CD21E78141C0075746D /* buyCardTableViewCell.xib */; };
+		30890CD61E7814750075746D /* buyCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30890CD51E7814750075746D /* buyCardViewController.swift */; };
+		30890CD81E78239C0075746D /* showCardVariationsForShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30890CD71E78239C0075746D /* showCardVariationsForShopViewController.swift */; };
+		30890CE11E782A400075746D /* showBrandVariationsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30890CDF1E782A400075746D /* showBrandVariationsTableViewCell.swift */; };
+		30890CE21E782A400075746D /* showBrandVariationsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30890CE01E782A400075746D /* showBrandVariationsTableViewCell.xib */; };
+		309328E91E69511700006137 /* PageViewControllerLoyalty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309328E81E69511700006137 /* PageViewControllerLoyalty.swift */; };
+		3094F2831E7918FC001DCFC9 /* buyCardSelectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3094F2821E7918FC001DCFC9 /* buyCardSelectedViewController.swift */; };
+		309EA8421E6E9EA400E0A917 /* KlippeKortTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309EA8401E6E9EA400E0A917 /* KlippeKortTableViewCell.swift */; };
+		309EA8431E6E9EA400E0A917 /* KlippeKortTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 309EA8411E6E9EA400E0A917 /* KlippeKortTableViewCell.xib */; };
+		30A0454C1E8E544700BF509B /* AboutKeebinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A0454B1E8E544700BF509B /* AboutKeebinViewController.swift */; };
+		30B1DDCB1E6D5D4F004E926A /* KlippeKortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B1DDCA1E6D5D4F004E926A /* KlippeKortViewController.swift */; };
+		30D4C9791E5DC672002F31DF /* HomeView2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D4C9781E5DC672002F31DF /* HomeView2Controller.swift */; };
+		30F297321E88FD80003A1FD0 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F297311E88FD80003A1FD0 /* Settings.swift */; };
+		9007C33B1E4CAE3B00444FAE /* TableViewCellHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9007C33A1E4CAE3B00444FAE /* TableViewCellHome.swift */; };
+		9007C33D1E4CAE4400444FAE /* TableViewCellHome.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9007C33C1E4CAE4400444FAE /* TableViewCellHome.xib */; };
+		9007C33F1E4CAE4B00444FAE /* HomeSelectedShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9007C33E1E4CAE4B00444FAE /* HomeSelectedShopViewController.swift */; };
+		9007C3421E4CB0C700444FAE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9007C3411E4CB0C700444FAE /* CoreLocation.framework */; };
+		901E53581E88EF6700114DB8 /* PremiumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901E53571E88EF6700114DB8 /* PremiumViewController.swift */; };
+		90403B6A1E4DE38600EF2140 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90403B691E4DE38600EF2140 /* MapViewController.swift */; };
+		904E41BB1EC6F7FC000AD248 /* cardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904E41BA1EC6F7FC000AD248 /* cardViewController.swift */; };
+		904EDDC61E646B9100097345 /* CoffeeShopImage+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904EDDC41E646B9100097345 /* CoffeeShopImage+CoreDataClass.swift */; };
+		904EDDC71E646B9100097345 /* CoffeeShopImage+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904EDDC51E646B9100097345 /* CoffeeShopImage+CoreDataProperties.swift */; };
+		90529F201EB8D65C0042F983 /* StartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90529F1F1EB8D65C0042F983 /* StartTests.swift */; };
+		9067EE3E1EB20E4B00105FCD /* libMobilePayManager1.8.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9067EE391EB20E4B00105FCD /* libMobilePayManager1.8.0.a */; };
+		9067EE441EB20E9400105FCD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9067EE431EB20E9400105FCD /* CoreGraphics.framework */; };
+		9067EE461EB20E9B00105FCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9067EE451EB20E9B00105FCD /* Foundation.framework */; };
+		9067EE481EB20EA100105FCD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9067EE471EB20EA100105FCD /* UIKit.framework */; };
+		9067EE4B1EB20ED800105FCD /* MobilePayTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9067EE4A1EB20ED800105FCD /* MobilePayTest.m */; };
+		906B44901E41E0BE007C4518 /* CoffeeShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906B448F1E41E0BE007C4518 /* CoffeeShop.swift */; };
+		906B44921E41E0CE007C4518 /* LoyaltyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906B44911E41E0CE007C4518 /* LoyaltyCard.swift */; };
+		906B44941E41E0DC007C4518 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906B44931E41E0DC007C4518 /* Order.swift */; };
+		906B44961E41E0EF007C4518 /* OrderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906B44951E41E0EF007C4518 /* OrderItem.swift */; };
+		906B449A1E41E10B007C4518 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906B44991E41E10B007C4518 /* User.swift */; };
+		906B449C1E41EBEC007C4518 /* saveToDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906B449B1E41EBEC007C4518 /* saveToDB.swift */; };
+		907F05211EC1BF950073A439 /* SelectedPremiumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907F05201EC1BF950073A439 /* SelectedPremiumViewController.swift */; };
+		90E0013A1E41DDE30060607A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E001391E41DDE30060607A /* AppDelegate.swift */; };
+		90E0013F1E41DDE30060607A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90E0013D1E41DDE30060607A /* Main.storyboard */; };
+		90E001421E41DDE40060607A /* Keebin_development_1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 90E001401E41DDE40060607A /* Keebin_development_1.xcdatamodeld */; };
+		90E001441E41DDE40060607A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90E001431E41DDE40060607A /* Assets.xcassets */; };
+		90E001471E41DDE40060607A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90E001451E41DDE40060607A /* LaunchScreen.storyboard */; };
+		90E001521E41DDE40060607A /* Keebin_development_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E001511E41DDE40060607A /* Keebin_development_1Tests.swift */; };
+		90E0015D1E41DDE40060607A /* Keebin_development_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E0015C1E41DDE40060607A /* Keebin_development_1UITests.swift */; };
+		90E2E24A1E55D58C00CDC29C /* shopLocForMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E2E2491E55D58C00CDC29C /* shopLocForMap.swift */; };
+		90E2E24C1E55D79E00CDC29C /* MVControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E2E24B1E55D79E00CDC29C /* MVControllerExtension.swift */; };
+		90EC2E9D1E4B5B76007624A1 /* CoffeeBrand+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EC2E9B1E4B5B76007624A1 /* CoffeeBrand+CoreDataClass.swift */; };
+		90EC2E9E1E4B5B76007624A1 /* CoffeeBrand+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EC2E9C1E4B5B76007624A1 /* CoffeeBrand+CoreDataProperties.swift */; };
+		90F12DA51EC5D66800C7BB99 /* Stripe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F12DA41EC5D66800C7BB99 /* Stripe.framework */; };
+		90F12DA61EC5D66800C7BB99 /* Stripe.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 90F12DA41EC5D66800C7BB99 /* Stripe.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		90F3F93C1EB9E14500B81F48 /* TestsWithTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F3F93B1EB9E14500B81F48 /* TestsWithTokens.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90E0014E1E41DDE40060607A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90E0012E1E41DDE30060607A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90E001351E41DDE30060607A;
+			remoteInfo = Keebin_development_1;
+		};
+		90E001591E41DDE40060607A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90E0012E1E41DDE30060607A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90E001351E41DDE30060607A;
+			remoteInfo = Keebin_development_1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		90F12D9C1EC5CB1D00C7BB99 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				90F12DA61EC5D66800C7BB99 /* Stripe.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		30069B861E4952130048DD15 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Keebin_development_1/LoginViewController.swift; sourceTree = "<group>"; };
+		304D8C3D1E72B6D600B95B58 /* KlippekortSelectedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KlippekortSelectedViewController.swift; sourceTree = "<group>"; };
+		3059FF031E65A9ED0059DA1A /* SettingsDateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsDateViewController.swift; sourceTree = "<group>"; };
+		305A62AE1E642FB800A35A02 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		305A62B01E6451B000A35A02 /* GlobalVariables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GlobalVariables.swift; path = ../GlobalVariables.swift; sourceTree = "<group>"; };
+		307D6F4C1E4DC769007DA665 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		30890CD11E78141C0075746D /* buyCardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = buyCardTableViewCell.swift; sourceTree = "<group>"; };
+		30890CD21E78141C0075746D /* buyCardTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = buyCardTableViewCell.xib; sourceTree = "<group>"; };
+		30890CD51E7814750075746D /* buyCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = buyCardViewController.swift; sourceTree = "<group>"; };
+		30890CD71E78239C0075746D /* showCardVariationsForShopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = showCardVariationsForShopViewController.swift; sourceTree = "<group>"; };
+		30890CDF1E782A400075746D /* showBrandVariationsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = showBrandVariationsTableViewCell.swift; sourceTree = "<group>"; };
+		30890CE01E782A400075746D /* showBrandVariationsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = showBrandVariationsTableViewCell.xib; sourceTree = "<group>"; };
+		309328E81E69511700006137 /* PageViewControllerLoyalty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PageViewControllerLoyalty.swift; path = ../PageViewControllerLoyalty.swift; sourceTree = "<group>"; };
+		3094F2821E7918FC001DCFC9 /* buyCardSelectedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = buyCardSelectedViewController.swift; sourceTree = "<group>"; };
+		309EA8401E6E9EA400E0A917 /* KlippeKortTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KlippeKortTableViewCell.swift; sourceTree = "<group>"; };
+		309EA8411E6E9EA400E0A917 /* KlippeKortTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KlippeKortTableViewCell.xib; sourceTree = "<group>"; };
+		30A0454B1E8E544700BF509B /* AboutKeebinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutKeebinViewController.swift; sourceTree = "<group>"; };
+		30B1DDCA1E6D5D4F004E926A /* KlippeKortViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KlippeKortViewController.swift; sourceTree = "<group>"; };
+		30D4C9781E5DC672002F31DF /* HomeView2Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeView2Controller.swift; path = Keebin_development_1/HomeView2Controller.swift; sourceTree = "<group>"; };
+		30F297311E88FD80003A1FD0 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		9007C33A1E4CAE3B00444FAE /* TableViewCellHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewCellHome.swift; path = Keebin_development_1/TableViewCellHome.swift; sourceTree = "<group>"; };
+		9007C33C1E4CAE4400444FAE /* TableViewCellHome.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TableViewCellHome.xib; path = Keebin_development_1/TableViewCellHome.xib; sourceTree = "<group>"; };
+		9007C33E1E4CAE4B00444FAE /* HomeSelectedShopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeSelectedShopViewController.swift; path = Keebin_development_1/HomeSelectedShopViewController.swift; sourceTree = "<group>"; };
+		9007C3411E4CB0C700444FAE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		901E53571E88EF6700114DB8 /* PremiumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PremiumViewController.swift; path = Keebin_development_1/PremiumViewController.swift; sourceTree = "<group>"; };
+		90403B691E4DE38600EF2140 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = Keebin_development_1/MapViewController.swift; sourceTree = "<group>"; };
+		904E41BA1EC6F7FC000AD248 /* cardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cardViewController.swift; sourceTree = "<group>"; };
+		904EDDC41E646B9100097345 /* CoffeeShopImage+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CoffeeShopImage+CoreDataClass.swift"; sourceTree = "<group>"; };
+		904EDDC51E646B9100097345 /* CoffeeShopImage+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CoffeeShopImage+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		90529F1F1EB8D65C0042F983 /* StartTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartTests.swift; sourceTree = "<group>"; };
+		9067EE391EB20E4B00105FCD /* libMobilePayManager1.8.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMobilePayManager1.8.0.a; path = ../libMobilePayManager1.8.0.a; sourceTree = "<group>"; };
+		9067EE3F1EB20E7B00105FCD /* MobilePayCancelledPayment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobilePayCancelledPayment.h; sourceTree = "<group>"; };
+		9067EE401EB20E7B00105FCD /* MobilePayManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobilePayManager.h; sourceTree = "<group>"; };
+		9067EE411EB20E7B00105FCD /* MobilePayPayment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobilePayPayment.h; sourceTree = "<group>"; };
+		9067EE421EB20E7B00105FCD /* MobilePaySuccessfulPayment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobilePaySuccessfulPayment.h; sourceTree = "<group>"; };
+		9067EE431EB20E9400105FCD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9067EE451EB20E9B00105FCD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9067EE471EB20EA100105FCD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9067EE491EB20ED800105FCD /* Keebin_development_1-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Keebin_development_1-Bridging-Header.h"; sourceTree = "<group>"; };
+		9067EE4A1EB20ED800105FCD /* MobilePayTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobilePayTest.m; sourceTree = "<group>"; };
+		906B448F1E41E0BE007C4518 /* CoffeeShop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoffeeShop.swift; sourceTree = "<group>"; };
+		906B44911E41E0CE007C4518 /* LoyaltyCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoyaltyCard.swift; sourceTree = "<group>"; };
+		906B44931E41E0DC007C4518 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		906B44951E41E0EF007C4518 /* OrderItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderItem.swift; sourceTree = "<group>"; };
+		906B44991E41E10B007C4518 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		906B449B1E41EBEC007C4518 /* saveToDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = saveToDB.swift; path = Keebin_development_1/saveToDB.swift; sourceTree = "<group>"; };
+		907F05201EC1BF950073A439 /* SelectedPremiumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedPremiumViewController.swift; sourceTree = "<group>"; };
+		90E001361E41DDE30060607A /* Keebin_development_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Keebin_development_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90E001391E41DDE30060607A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		90E0013E1E41DDE30060607A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90E001411E41DDE40060607A /* Keebin_development_1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Keebin_development_1.xcdatamodel; sourceTree = "<group>"; };
+		90E001431E41DDE40060607A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90E001461E41DDE40060607A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		90E001481E41DDE40060607A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90E0014D1E41DDE40060607A /* Keebin_development_1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Keebin_development_1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90E001511E41DDE40060607A /* Keebin_development_1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keebin_development_1Tests.swift; sourceTree = "<group>"; };
+		90E001531E41DDE40060607A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90E001581E41DDE40060607A /* Keebin_development_1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Keebin_development_1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90E0015C1E41DDE40060607A /* Keebin_development_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keebin_development_1UITests.swift; sourceTree = "<group>"; };
+		90E0015E1E41DDE40060607A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90E2E2491E55D58C00CDC29C /* shopLocForMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = shopLocForMap.swift; path = Keebin_development_1/shopLocForMap.swift; sourceTree = "<group>"; };
+		90E2E24B1E55D79E00CDC29C /* MVControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MVControllerExtension.swift; path = Keebin_development_1/MVControllerExtension.swift; sourceTree = "<group>"; };
+		90EC2E9B1E4B5B76007624A1 /* CoffeeBrand+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CoffeeBrand+CoreDataClass.swift"; sourceTree = "<group>"; };
+		90EC2E9C1E4B5B76007624A1 /* CoffeeBrand+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CoffeeBrand+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		90F12DA41EC5D66800C7BB99 /* Stripe.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Stripe.framework; sourceTree = "<group>"; };
+		90F3F93B1EB9E14500B81F48 /* TestsWithTokens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestsWithTokens.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90E001331E41DDE30060607A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9067EE3E1EB20E4B00105FCD /* libMobilePayManager1.8.0.a in Frameworks */,
+				9067EE441EB20E9400105FCD /* CoreGraphics.framework in Frameworks */,
+				9067EE481EB20EA100105FCD /* UIKit.framework in Frameworks */,
+				9067EE461EB20E9B00105FCD /* Foundation.framework in Frameworks */,
+				9007C3421E4CB0C700444FAE /* CoreLocation.framework in Frameworks */,
+				90F12DA51EC5D66800C7BB99 /* Stripe.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90E0014A1E41DDE40060607A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90E001551E41DDE40060607A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30F3B98D1E83CC1C009CEA68 /* Klippekort */ = {
+			isa = PBXGroup;
+			children = (
+				30890CDF1E782A400075746D /* showBrandVariationsTableViewCell.swift */,
+				30890CE01E782A400075746D /* showBrandVariationsTableViewCell.xib */,
+				3094F2821E7918FC001DCFC9 /* buyCardSelectedViewController.swift */,
+				30890CD71E78239C0075746D /* showCardVariationsForShopViewController.swift */,
+				30890CD51E7814750075746D /* buyCardViewController.swift */,
+				30890CD11E78141C0075746D /* buyCardTableViewCell.swift */,
+				30890CD21E78141C0075746D /* buyCardTableViewCell.xib */,
+				309EA8401E6E9EA400E0A917 /* KlippeKortTableViewCell.swift */,
+				304D8C3D1E72B6D600B95B58 /* KlippekortSelectedViewController.swift */,
+				30B1DDCA1E6D5D4F004E926A /* KlippeKortViewController.swift */,
+				309EA8411E6E9EA400E0A917 /* KlippeKortTableViewCell.xib */,
+			);
+			name = Klippekort;
+			sourceTree = "<group>";
+		};
+		30F3B98F1E83CCC9009CEA68 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				305A62AE1E642FB800A35A02 /* SettingsViewController.swift */,
+				3059FF031E65A9ED0059DA1A /* SettingsDateViewController.swift */,
+				30F297311E88FD80003A1FD0 /* Settings.swift */,
+				904E41BA1EC6F7FC000AD248 /* cardViewController.swift */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		30F3B9901E83CCF7009CEA68 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9007C33A1E4CAE3B00444FAE /* TableViewCellHome.swift */,
+				30D4C9781E5DC672002F31DF /* HomeView2Controller.swift */,
+				9007C33C1E4CAE4400444FAE /* TableViewCellHome.xib */,
+				9007C33E1E4CAE4B00444FAE /* HomeSelectedShopViewController.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		30F3B9911E83CD15009CEA68 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				90403B691E4DE38600EF2140 /* MapViewController.swift */,
+				90E2E2491E55D58C00CDC29C /* shopLocForMap.swift */,
+				90E2E24B1E55D79E00CDC29C /* MVControllerExtension.swift */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		30F3B9921E83CD4B009CEA68 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				906B449B1E41EBEC007C4518 /* saveToDB.swift */,
+				90EC2E9B1E4B5B76007624A1 /* CoffeeBrand+CoreDataClass.swift */,
+				90EC2E9C1E4B5B76007624A1 /* CoffeeBrand+CoreDataProperties.swift */,
+				90E001401E41DDE40060607A /* Keebin_development_1.xcdatamodeld */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		30F3B9931E83CD6B009CEA68 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				307D6F4C1E4DC769007DA665 /* RegisterViewController.swift */,
+				30069B861E4952130048DD15 /* LoginViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		9007C3401E4CB0C700444FAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9067EE471EB20EA100105FCD /* UIKit.framework */,
+				9067EE451EB20E9B00105FCD /* Foundation.framework */,
+				9067EE431EB20E9400105FCD /* CoreGraphics.framework */,
+				9007C3411E4CB0C700444FAE /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9013347D1EB8832A00944869 /* iOSUnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				90529F1F1EB8D65C0042F983 /* StartTests.swift */,
+				90F3F93B1EB9E14500B81F48 /* TestsWithTokens.swift */,
+			);
+			name = iOSUnitTests;
+			sourceTree = "<group>";
+		};
+		901E53561E88EF1900114DB8 /* Premium */ = {
+			isa = PBXGroup;
+			children = (
+				901E53571E88EF6700114DB8 /* PremiumViewController.swift */,
+				907F05201EC1BF950073A439 /* SelectedPremiumViewController.swift */,
+			);
+			name = Premium;
+			sourceTree = "<group>";
+		};
+		906B448C1E41E092007C4518 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				906B448F1E41E0BE007C4518 /* CoffeeShop.swift */,
+				906B44911E41E0CE007C4518 /* LoyaltyCard.swift */,
+				906B44931E41E0DC007C4518 /* Order.swift */,
+				906B44951E41E0EF007C4518 /* OrderItem.swift */,
+				906B44991E41E10B007C4518 /* User.swift */,
+			);
+			name = Entities;
+			path = Keebin_development_1;
+			sourceTree = "<group>";
+		};
+		90E0012D1E41DDE30060607A = {
+			isa = PBXGroup;
+			children = (
+				90F12DA41EC5D66800C7BB99 /* Stripe.framework */,
+				9013347D1EB8832A00944869 /* iOSUnitTests */,
+				30F3B9931E83CD6B009CEA68 /* Login */,
+				30F3B9921E83CD4B009CEA68 /* Database */,
+				30F3B9911E83CD15009CEA68 /* Map */,
+				30F3B9901E83CCF7009CEA68 /* Home */,
+				30F3B98F1E83CCC9009CEA68 /* Settings */,
+				30F3B98D1E83CC1C009CEA68 /* Klippekort */,
+				901E53561E88EF1900114DB8 /* Premium */,
+				906B448C1E41E092007C4518 /* Entities */,
+				90E001381E41DDE30060607A /* Keebin_development_1 */,
+				90E001501E41DDE40060607A /* Keebin_development_1Tests */,
+				90E0015B1E41DDE40060607A /* Keebin_development_1UITests */,
+				90E001371E41DDE30060607A /* Products */,
+				9007C3401E4CB0C700444FAE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		90E001371E41DDE30060607A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90E001361E41DDE30060607A /* Keebin_development_1.app */,
+				90E0014D1E41DDE40060607A /* Keebin_development_1Tests.xctest */,
+				90E001581E41DDE40060607A /* Keebin_development_1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90E001381E41DDE30060607A /* Keebin_development_1 */ = {
+			isa = PBXGroup;
+			children = (
+				9067EE391EB20E4B00105FCD /* libMobilePayManager1.8.0.a */,
+				9067EE3F1EB20E7B00105FCD /* MobilePayCancelledPayment.h */,
+				9067EE401EB20E7B00105FCD /* MobilePayManager.h */,
+				9067EE411EB20E7B00105FCD /* MobilePayPayment.h */,
+				9067EE421EB20E7B00105FCD /* MobilePaySuccessfulPayment.h */,
+				90E001391E41DDE30060607A /* AppDelegate.swift */,
+				305A62B01E6451B000A35A02 /* GlobalVariables.swift */,
+				90E0013D1E41DDE30060607A /* Main.storyboard */,
+				309328E81E69511700006137 /* PageViewControllerLoyalty.swift */,
+				90E001431E41DDE40060607A /* Assets.xcassets */,
+				90E001451E41DDE40060607A /* LaunchScreen.storyboard */,
+				90E001481E41DDE40060607A /* Info.plist */,
+				30A0454B1E8E544700BF509B /* AboutKeebinViewController.swift */,
+				9067EE4A1EB20ED800105FCD /* MobilePayTest.m */,
+				9067EE491EB20ED800105FCD /* Keebin_development_1-Bridging-Header.h */,
+			);
+			path = Keebin_development_1;
+			sourceTree = "<group>";
+		};
+		90E001501E41DDE40060607A /* Keebin_development_1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				90E001511E41DDE40060607A /* Keebin_development_1Tests.swift */,
+				90E001531E41DDE40060607A /* Info.plist */,
+			);
+			path = Keebin_development_1Tests;
+			sourceTree = "<group>";
+		};
+		90E0015B1E41DDE40060607A /* Keebin_development_1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				90E0015C1E41DDE40060607A /* Keebin_development_1UITests.swift */,
+				90E0015E1E41DDE40060607A /* Info.plist */,
+			);
+			path = Keebin_development_1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90E001351E41DDE30060607A /* Keebin_development_1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90E001611E41DDE40060607A /* Build configuration list for PBXNativeTarget "Keebin_development_1" */;
+			buildPhases = (
+				90E001321E41DDE30060607A /* Sources */,
+				90E001331E41DDE30060607A /* Frameworks */,
+				90E001341E41DDE30060607A /* Resources */,
+				90F12D9C1EC5CB1D00C7BB99 /* Embed Frameworks */,
+				90F12DA71EC5D67000C7BB99 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Keebin_development_1;
+			productName = Keebin_development_1;
+			productReference = 90E001361E41DDE30060607A /* Keebin_development_1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90E0014C1E41DDE40060607A /* Keebin_development_1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90E001641E41DDE40060607A /* Build configuration list for PBXNativeTarget "Keebin_development_1Tests" */;
+			buildPhases = (
+				90E001491E41DDE40060607A /* Sources */,
+				90E0014A1E41DDE40060607A /* Frameworks */,
+				90E0014B1E41DDE40060607A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90E0014F1E41DDE40060607A /* PBXTargetDependency */,
+			);
+			name = Keebin_development_1Tests;
+			productName = Keebin_development_1Tests;
+			productReference = 90E0014D1E41DDE40060607A /* Keebin_development_1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		90E001571E41DDE40060607A /* Keebin_development_1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90E001671E41DDE40060607A /* Build configuration list for PBXNativeTarget "Keebin_development_1UITests" */;
+			buildPhases = (
+				90E001541E41DDE40060607A /* Sources */,
+				90E001551E41DDE40060607A /* Frameworks */,
+				90E001561E41DDE40060607A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90E0015A1E41DDE40060607A /* PBXTargetDependency */,
+			);
+			name = Keebin_development_1UITests;
+			productName = Keebin_development_1UITests;
+			productReference = 90E001581E41DDE40060607A /* Keebin_development_1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90E0012E1E41DDE30060607A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Keebin;
+				TargetAttributes = {
+					90E001351E41DDE30060607A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = J56MMM2E35;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Manual;
+					};
+					90E0014C1E41DDE40060607A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 90E001351E41DDE30060607A;
+					};
+					90E001571E41DDE40060607A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 90E001351E41DDE30060607A;
+					};
+				};
+			};
+			buildConfigurationList = 90E001311E41DDE30060607A /* Build configuration list for PBXProject "Keebin_development_1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90E0012D1E41DDE30060607A;
+			productRefGroup = 90E001371E41DDE30060607A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90E001351E41DDE30060607A /* Keebin_development_1 */,
+				90E0014C1E41DDE40060607A /* Keebin_development_1Tests */,
+				90E001571E41DDE40060607A /* Keebin_development_1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90E001341E41DDE30060607A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30890CE21E782A400075746D /* showBrandVariationsTableViewCell.xib in Resources */,
+				309EA8431E6E9EA400E0A917 /* KlippeKortTableViewCell.xib in Resources */,
+				90E001471E41DDE40060607A /* LaunchScreen.storyboard in Resources */,
+				90E001441E41DDE40060607A /* Assets.xcassets in Resources */,
+				90E0013F1E41DDE30060607A /* Main.storyboard in Resources */,
+				9007C33D1E4CAE4400444FAE /* TableViewCellHome.xib in Resources */,
+				30890CD41E78141C0075746D /* buyCardTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90E0014B1E41DDE40060607A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90E001561E41DDE40060607A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		90F12DA71EC5D67000C7BB99 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stripe.framework/integrate-dynamic-framework.sh\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90E001321E41DDE30060607A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30890CE11E782A400075746D /* showBrandVariationsTableViewCell.swift in Sources */,
+				906B449C1E41EBEC007C4518 /* saveToDB.swift in Sources */,
+				90E2E24A1E55D58C00CDC29C /* shopLocForMap.swift in Sources */,
+				90403B6A1E4DE38600EF2140 /* MapViewController.swift in Sources */,
+				30D4C9791E5DC672002F31DF /* HomeView2Controller.swift in Sources */,
+				9007C33F1E4CAE4B00444FAE /* HomeSelectedShopViewController.swift in Sources */,
+				9007C33B1E4CAE3B00444FAE /* TableViewCellHome.swift in Sources */,
+				906B44901E41E0BE007C4518 /* CoffeeShop.swift in Sources */,
+				907F05211EC1BF950073A439 /* SelectedPremiumViewController.swift in Sources */,
+				90EC2E9E1E4B5B76007624A1 /* CoffeeBrand+CoreDataProperties.swift in Sources */,
+				906B44921E41E0CE007C4518 /* LoyaltyCard.swift in Sources */,
+				309EA8421E6E9EA400E0A917 /* KlippeKortTableViewCell.swift in Sources */,
+				30890CD81E78239C0075746D /* showCardVariationsForShopViewController.swift in Sources */,
+				904EDDC71E646B9100097345 /* CoffeeShopImage+CoreDataProperties.swift in Sources */,
+				304D8C3E1E72B6D600B95B58 /* KlippekortSelectedViewController.swift in Sources */,
+				30F297321E88FD80003A1FD0 /* Settings.swift in Sources */,
+				901E53581E88EF6700114DB8 /* PremiumViewController.swift in Sources */,
+				309328E91E69511700006137 /* PageViewControllerLoyalty.swift in Sources */,
+				90E0013A1E41DDE30060607A /* AppDelegate.swift in Sources */,
+				30A0454C1E8E544700BF509B /* AboutKeebinViewController.swift in Sources */,
+				305A62B11E6451B000A35A02 /* GlobalVariables.swift in Sources */,
+				307D6F4D1E4DC769007DA665 /* RegisterViewController.swift in Sources */,
+				90E001421E41DDE40060607A /* Keebin_development_1.xcdatamodeld in Sources */,
+				30B1DDCB1E6D5D4F004E926A /* KlippeKortViewController.swift in Sources */,
+				906B44961E41E0EF007C4518 /* OrderItem.swift in Sources */,
+				906B449A1E41E10B007C4518 /* User.swift in Sources */,
+				904EDDC61E646B9100097345 /* CoffeeShopImage+CoreDataClass.swift in Sources */,
+				90E2E24C1E55D79E00CDC29C /* MVControllerExtension.swift in Sources */,
+				904E41BB1EC6F7FC000AD248 /* cardViewController.swift in Sources */,
+				30890CD61E7814750075746D /* buyCardViewController.swift in Sources */,
+				906B44941E41E0DC007C4518 /* Order.swift in Sources */,
+				90EC2E9D1E4B5B76007624A1 /* CoffeeBrand+CoreDataClass.swift in Sources */,
+				30069B871E4952130048DD15 /* LoginViewController.swift in Sources */,
+				3059FF041E65A9ED0059DA1A /* SettingsDateViewController.swift in Sources */,
+				9067EE4B1EB20ED800105FCD /* MobilePayTest.m in Sources */,
+				30890CD31E78141C0075746D /* buyCardTableViewCell.swift in Sources */,
+				3094F2831E7918FC001DCFC9 /* buyCardSelectedViewController.swift in Sources */,
+				305A62AF1E642FB800A35A02 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90E001491E41DDE40060607A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90529F201EB8D65C0042F983 /* StartTests.swift in Sources */,
+				90F3F93C1EB9E14500B81F48 /* TestsWithTokens.swift in Sources */,
+				90E001521E41DDE40060607A /* Keebin_development_1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90E001541E41DDE40060607A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90E0015D1E41DDE40060607A /* Keebin_development_1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90E0014F1E41DDE40060607A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90E001351E41DDE30060607A /* Keebin_development_1 */;
+			targetProxy = 90E0014E1E41DDE40060607A /* PBXContainerItemProxy */;
+		};
+		90E0015A1E41DDE40060607A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90E001351E41DDE30060607A /* Keebin_development_1 */;
+			targetProxy = 90E001591E41DDE40060607A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		90E0013D1E41DDE30060607A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90E0013E1E41DDE30060607A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		90E001451E41DDE40060607A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90E001461E41DDE40060607A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90E0015F1E41DDE40060607A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		90E001601E41DDE40060607A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90E001621E41DDE40060607A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = J56MMM2E35;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Keebin_development_1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dk.keebin.keebinapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0009375d-e70b-4095-9e47-f28826271723";
+				PROVISIONING_PROFILE_SPECIFIER = KeebinAppTest;
+				SWIFT_OBJC_BRIDGING_HEADER = "Keebin_development_1/Keebin_development_1-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		90E001631E41DDE40060607A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = J56MMM2E35;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Keebin_development_1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dk.keebin.keebinapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0009375d-e70b-4095-9e47-f28826271723";
+				PROVISIONING_PROFILE_SPECIFIER = KeebinAppTest;
+				SWIFT_OBJC_BRIDGING_HEADER = "Keebin_development_1/Keebin_development_1-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		90E001651E41DDE40060607A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Keebin_development_1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Keebin.Keebin-development-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Keebin_development_1.app/Keebin_development_1";
+			};
+			name = Debug;
+		};
+		90E001661E41DDE40060607A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Keebin_development_1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Keebin.Keebin-development-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Keebin_development_1.app/Keebin_development_1";
+			};
+			name = Release;
+		};
+		90E001681E41DDE40060607A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Keebin_development_1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Keebin.Keebin-development-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Keebin_development_1;
+			};
+			name = Debug;
+		};
+		90E001691E41DDE40060607A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Keebin_development_1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Keebin.Keebin-development-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Keebin_development_1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90E001311E41DDE30060607A /* Build configuration list for PBXProject "Keebin_development_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90E0015F1E41DDE40060607A /* Debug */,
+				90E001601E41DDE40060607A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90E001611E41DDE40060607A /* Build configuration list for PBXNativeTarget "Keebin_development_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90E001621E41DDE40060607A /* Debug */,
+				90E001631E41DDE40060607A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90E001641E41DDE40060607A /* Build configuration list for PBXNativeTarget "Keebin_development_1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90E001651E41DDE40060607A /* Debug */,
+				90E001661E41DDE40060607A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90E001671E41DDE40060607A /* Build configuration list for PBXNativeTarget "Keebin_development_1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90E001681E41DDE40060607A /* Debug */,
+				90E001691E41DDE40060607A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		90E001401E41DDE40060607A /* Keebin_development_1.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				90E001411E41DDE40060607A /* Keebin_development_1.xcdatamodel */,
+			);
+			currentVersion = 90E001411E41DDE40060607A /* Keebin_development_1.xcdatamodel */;
+			name = Keebin_development_1.xcdatamodeld;
+			path = Keebin_development_1/Keebin_development_1.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 90E0012E1E41DDE30060607A /* Project object */;
+}
